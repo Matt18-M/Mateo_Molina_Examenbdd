@@ -14,7 +14,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"codigo\": \"AA-100\",\r\n    \"precioBoleto\": 350.50,\r\n    \"asientosDisponibles\": 15\r\n}",
+          "raw": "{\r\n    \"codigo\": \"ADF-100\",\r\n    \"precioBoleto\": 350.50,\r\n    \"asientosDisponibles\": 15,\r\n    \"destino\":\"Cuenca\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -76,7 +76,7 @@
           "raw": "{\r\n    \"codigo\": \"AA-100\",\r\n    \"precioBoleto\": 350.50,\r\n    \"asientosDisponibles\": 15\r\n}"
         },
         "url": {
-          "raw": "http://localhost:8080/api/vuelos/3",
+          "raw": "http://localhost:8080/api/vuelos/7",
           "protocol": "http",
           "host": [
             "localhost"
@@ -85,7 +85,7 @@
           "path": [
             "api",
             "vuelos",
-            "3"
+            "7"
           ]
         }
       },
@@ -98,7 +98,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n      \"codigo\": \"ZAA-876\",\r\n    \"precioBoleto\": 322.0,\r\n    \"asientosDisponibles\": 45\r\n}",
+          "raw": "{\r\n    \"codigo\": \"QES-001\",\r\n    \"precioBoleto\": 150.0,\r\n    \"asientosDisponibles\": 95,\r\n    \"destino\": \"Cuenca\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -106,7 +106,7 @@
           }
         },
         "url": {
-          "raw": "http://localhost:8080/api/vuelos/3",
+          "raw": "http://localhost:8080/api/vuelos/26",
           "protocol": "http",
           "host": [
             "localhost"
@@ -115,7 +115,7 @@
           "path": [
             "api",
             "vuelos",
-            "3"
+            "26"
           ]
         }
       },
@@ -131,7 +131,7 @@
           "raw": "{\r\n      \"codigo\": \"ZAA-876\",\r\n    \"precioBoleto\": 322.0,\r\n    \"asientosDisponibles\": 45\r\n}"
         },
         "url": {
-          "raw": "http://localhost:8080/api/vuelos/3",
+          "raw": "http://localhost:8080/api/vuelos/7",
           "protocol": "http",
           "host": [
             "localhost"
@@ -140,7 +140,7 @@
           "path": [
             "api",
             "vuelos",
-            "3"
+            "7"
           ]
         }
       },
